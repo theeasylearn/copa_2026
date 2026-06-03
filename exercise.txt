@@ -1,0 +1,6 @@
+1) create web page that will display different types cousins. 
+    each of them should have 5 dish 
+
+2) create web page that will display 5 different tourist destination. 
+    using h1, div, p tag. 
+
