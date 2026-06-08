@@ -1,0 +1,51 @@
+### Exercise 1: Create a Motivational Quotes Page
+
+Requirements:
+
+* Create a page with 5 motivational quotes.
+* Each quote should be inside a separate `<div>`.
+* Use `<h2>` for quote titles and `<span>` for author names.
+* Make the page heading uppercase and center aligned.
+* Add space between quote boxes.
+* Underline and italicize author names.
+
+### Exercise 2: Create a News Portal
+
+Requirements:
+
+* Create a page containing 3 news articles.
+* Each article should be inside a bordered `<div>`.
+* Use a different font family for article content.
+* Increase line spacing for readability.
+* Justify all paragraph text.
+* Add padding inside article boxes.
+
+### Exercise 3: Create a Travel Blog
+
+Requirements:
+
+* Create a page describing 3 places you visited.
+* Use large paragraphs.
+* First line of every paragraph should start with an indent.
+* Increase space between words and letters.
+* Use different text colors for headings and paragraphs.
+
+### Exercise 4: Create a Recipe Book
+
+Requirements:
+
+* Add 3 recipes.
+* Each recipe should be inside a colored box.
+* Recipe name should have a bottom border.
+* Display cooking tips inside `<span>` tags.
+* Make tips bold and center aligned.
+
+### Exercise 5: Create a Movie Review Page
+
+Requirements:
+
+* Add reviews for 3 movies.
+* Each review should be inside a separate `<div>`.
+* Use different font sizes for title, review text, and rating.
+* Add spacing between review sections.
+* Display movie rating inside a bold, underlined `<span>`.
