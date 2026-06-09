@@ -1,0 +1,20 @@
+### Exercise 1: Story Page Typography Makeover
+
+Using the story page you created in class, make the following changes:
+
+#### Requirements
+
+1. Import **two different Google Fonts** of your choice.
+2. Apply one font to all text using the universal selector (`*`).
+3. Apply another font only to `h1`, `h2`, and `h3`.
+4. Set:
+
+   * `h1` → `3em`
+   * `h2` → `2em`
+   * `h3` → `1.5em`
+5. Increase:
+
+   * `letter-spacing` to `2px`
+   * `word-spacing` to `8px`
+6. Change the page background color.
+7. Change the text color of all headings.
