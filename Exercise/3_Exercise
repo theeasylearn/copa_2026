@@ -1,6 +1,45 @@
-### Exercise ###
+### Exercise: Nature Information Page
 
-#### Requirements
+Create a webpage titled **"Wonders of Nature"** with information about any **three natural objects** (e.g., Mountain, River, Forest).
 
-1. Download and add 512px size and png type image of your choice from web.
-2. Display image with no repeat.
+#### HTML Requirements
+
+* One `<h1>` heading.
+* Three `<div>` sections.
+* Each section must contain:
+
+  * One `<h2>`
+  * One paragraph (`<p>`)
+
+#### CSS Requirements
+
+Apply the following:
+
+##### For `body`
+
+1. Set a background color.
+2. Add a background image.
+3. Prevent the image from repeating.
+4. Keep the background fixed while scrolling.
+5. Position the image at the center.
+6. Set the image size to `250px`.
+
+##### For `div`
+
+1. Set a background color.
+2. Set text color to white.
+3. Add `padding: 15px`.
+4. Add `margin-bottom: 20px`.
+5. Set `opacity: 0.7`.
+6. Set `text-align: justify`.
+7. Apply any `background-blend-mode` value.
+
+#### Practice below properties
+
+Try changing:
+
+* `background-repeat` (`repeat`, `repeat-x`, `repeat-y`, `no-repeat`)
+* `background-attachment` (`scroll`, `fixed`)
+* `opacity` (`0.2`, `0.5`, `0.8`, `1`)
+
+and observe the differences.
