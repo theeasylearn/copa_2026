@@ -1,0 +1,52 @@
+### Exercise: Famous Scientists Cards
+
+Create a webpage titled **"Famous Scientists"**.
+
+#### HTML Requirements
+
+Create **3 `<div>` cards** for:
+
+1. Albert Einstein
+2. Isaac Newton
+3. Marie Curie
+
+Each card should contain:
+
+* `<h2>` Scientist Name
+* One paragraph about the scientist
+* One interesting fact inside a `<span>`
+
+---
+
+### CSS Requirements
+
+Apply the following properties:
+
+#### Universal Selector (`*`)
+
+* Remove default margin and padding.
+* Set `letter-spacing: 1px`.
+
+#### Div Styling
+
+* Background color of your choice.
+* `padding: 15px`
+* `margin-bottom: 20px`
+* `width: calc(100vw / 3.5)`
+* `height: 250px`
+* `overflow: scroll`
+* `display: inline-block`
+* Border:
+
+  * Width: `2px`
+  * Style: `solid`
+  * Color: any color
+* `border-radius: 15px`
+* `box-shadow: 2px 2px 5px gray`
+
+
+Experiment with:
+
+* `overflow: hidden`
+* `overflow: auto`
+* Different `border-radius` values (`10px`, `30px`, `50px`)
