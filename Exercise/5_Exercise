@@ -1,0 +1,57 @@
+### Exercise 1: Company Website Layout (Position + Selectors)
+
+Create a webpage for a company called **Tech Solutions**.
+
+**Requirements:**
+
+1. Add a `<header>` at the top with the text "Tech Solutions".
+2. Add a `<footer>` at the bottom with the text "Copyright 2026".
+3. Create four `<div>` boxes:
+
+   * Services (Top Left)
+   * Products (Top Right)
+   * About Us (Bottom Left)
+   * Contact Us (Bottom Right)
+4. Use:
+
+   * Universal Selector (`*`)
+   * Type Selectors (`header`, `footer`, `div`)
+   * Class Selectors
+   * `position: absolute`
+5. Give a different background color to each box.
+6. Set the header height to `80px` and footer height to `50px`.
+7. Add a border-radius of `15px` to all four boxes.
+
+---
+
+### Exercise 2: School Website Navigation Bar (Flexbox)
+
+Create a header for **ABC Public School**.
+
+**Requirements:**
+
+1. Add a school logo image on the left.
+2. Add the heading "ABC Public School" in the center.
+3. Add a navigation menu on the right:
+
+   * Home
+   * Admissions
+   * Courses
+   * Gallery
+   * Contact
+4. Use:
+
+   * Flexbox
+   * `justify-content`
+   * `align-items`
+   * Class Selectors
+   * `list-style-type: none`
+5. Give the header a light background color.
+6. Set the header height to `100px`.
+
+**Challenge:**
+When the mouse moves over a menu item:
+
+* Change the text color.
+* Remove the underline.
+* Make the text bold.
