@@ -14,6 +14,10 @@
             justify-content: space-between;
             /* Set vertical alignment */
             align-items: center;
+
+            position: sticky;
+            top: 0;
+            left: 0;
         }
 
         .my-list {
@@ -21,7 +25,44 @@
             width: 40%;
             justify-content: space-around;
             /* Remove bullet */
-            list-style-type:none;   
+            list-style-type: none;
+        }
+
+        .site-footer {
+            display: flex;
+            background-color: #eeeeee;
+            align-items: center;
+
+            position: sticky;
+            bottom: 0;
+            left: 0;
+        }
+
+        .site-footer>* {
+            width: 33.33%;
+        }
+
+        .site-footer>ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+        }
+
+        .site-content {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .site-content>article {
+            /* By default border not count in width */
+            width: 33.33%;
+            border: 1px solid black;
+            box-sizing: border-box;
+
+            padding: 5px;
+
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -31,13 +72,105 @@
         <img src="site_icon.png" alt="">
         <h1>THE EASYLEARN ACADEMY</h1>
         <ul class="my-list">
-            <li><a href="">Home</a></li>
-            <li><a href="">Courses</a></li>
-            <li><a href="">Career</a></li>
-            <li><a href="">About us</a></li>
-            <li><a href="">Contact us</a></li>
+            <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href=""><i class="fa-solid fa-book"></i> Courses</a></li>
+            <li><a href=""><i class="fa-solid fa-user-graduate"></i> Career</a></li>
+            <li><a href=""><i class="fa-solid fa-circle-info"></i> About us</a></li>
+            <li><a href=""><i class="fa-solid fa-mobile"></i> Contact us</a></li>
         </ul>
     </header>
+
+    <section class="site-content">
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+        <article>
+            <header>Sample header</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, earum odio voluptatem dolore facilis quidem
+                distinctio corporis fugit modi obcaecati voluptas amet illum consequuntur natus soluta! Itaque quod
+                expedita quia atque quae ab fugiat commodi, dolore accusantium ipsum voluptatibus nam! Nesciunt, velit
+                ullam minima ad esse mollitia corporis voluptatem, odit expedita repellat aperiam beatae obcaecati
+                maxime, laudantium atque provident. Alias, asperiores esse deserunt tenetur et, dicta recusandae unde
+                illo possimus molestias perferendis vel veritatis, officia velit placeat laudantium. Ab consequatur
+                accusantium illo nam, nihil quam sequi, molestiae nesciunt voluptas, tempora inventore veniam itaque
+                earum reprehenderit ullam magni minus excepturi reiciendis!</p>
+        </article>
+    </section>
+
+    <footer class="site-footer">
+        <div>
+            <h3>THE EASYLEARN ACADEMY</h3>
+            105, Eva, Surbhi Mall, Waghawadi Rd., opp. akshwarwadi temple, <br /> Hill Drive, Bhavnagar, Gujarat 364001
+        </div>
+        <ul>
+            <li><i class="fa-brands fa-2x fa-square-facebook"></i></li>
+            <li><i class="fa-brands fa-2x fa-square-instagram"></i></li>
+            <li><i class="fa-brands fa-2x fa-linkedin"></i></li>
+            <li><i class="fa-brands fa-2x fa-square-whatsapp"></i></li>
+            <li><i class="fa-brands fa-2x fa-square-twitter"></i></li>
+        </ul>
+        <div>
+            <h3>Map</h3>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.676341867972!2d72.1411540739208!3d21.754069880083005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f5a70ae66c5d9%3A0x79e1b3139eda8f90!2sThe%20Easy%20Learn%20Academy!5e0!3m2!1sen!2sin!4v1781513843349!5m2!1sen!2sin"
+                width="300" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </footer>
 </body>
+
+<script src="https://kit.fontawesome.com/20994dd270.js" crossorigin="anonymous"></script>
 
 </html>

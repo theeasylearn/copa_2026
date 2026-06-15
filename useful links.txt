@@ -58,6 +58,9 @@ https://www.istockphoto.com
 
 for font icons 
 https://fontawesome.com/icons   
+To use font awesome icons must add
+<script src="https://kit.fontawesome.com/20994dd270.js" crossorigin="anonymous"></script>
+
 https://forkaweso.me
 
 for online photoshop 
