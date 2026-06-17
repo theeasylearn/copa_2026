@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Recreation</title>
+    <style>
+        /* Reset and basic styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 40px;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Main container using CSS Grid */
+        .container {
+            width: 100vw;           /* You can adjust this width */
+            height: 100vh;          /* Fixed height to match the visual proportion */
+            background-color: #fff;
+            border-radius: 8px;
+            
+            /* CSS Grid Setup */
+            display: grid;
+            grid-template-columns: 220px 1fr;   /* Left column (orange) + right area */
+            grid-template-rows: 150px 1fr 150px;  /* Top red + middle content + bottom green */
+            gap: 8px;                           /* Space between grid items */
+            padding: 8px;
+        }
+
+        /* Top Red Bar (Header) */
+        .header {
+            background-color: #e74c3c; /* Red */
+            grid-column: 1 / -1;       /* Span across both columns */
+            border-radius: 4px;
+        }
+
+        /* Orange Left Sidebar */
+        .sidebar {
+            background-color: #f39c12; /* Orange */
+            grid-row: 2 / 3;           /* Only in the middle row */
+            border-radius: 4px;
+        }
+
+        /* Right Content Area - 2x2 Grid */
+        .content {
+            grid-row: 2 / 3;
+            display: grid;             /* Nested grid for 2x2 layout */
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 8px;
+        }
+
+        .box {
+            background-color: #a8d1e7; /* Light blue */
+            border-radius: 4px;
+        }
+
+        /* Bottom Green Bar (Footer) */
+        .footer {
+            background-color: #27ae60; /* Green */
+            grid-column: 1 / -1;       /* Span full width */
+            border-radius: 4px;
+        }
+
+        /* Optional: Add some text for better understanding */
+        .header, .sidebar, .box, .footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Red Top Bar -->
+        <div class="header">RED HEADER BAR</div>
+        
+        <!-- Orange Sidebar -->
+        <div class="sidebar">ORANGE<br>SIDEBAR</div>
+        
+        <!-- Right 2x2 Grid Content -->
+        <div class="content">
+            <div class="box">LIGHT BLUE 1</div>
+            <div class="box">LIGHT BLUE 2</div>
+            <div class="box">LIGHT BLUE 3</div>
+            <div class="box">LIGHT BLUE 4</div>
+        </div>
+        
+        <!-- Green Bottom Bar -->
+        <div class="footer">GREEN FOOTER BAR</div>
+    </div>
+</body>
+</html>

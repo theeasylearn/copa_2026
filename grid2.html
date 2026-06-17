@@ -13,25 +13,30 @@
         #site {
             height: 100vh;
             width: 100vw;
+
             display: grid;
-            grid-template-rows: 1fr 6fr 1fr;
+            grid-template-rows: 2fr 6fr 2fr;
             grid-template-columns: 1fr 5fr;
+
+            grid-template-areas: "header header"
+            "menu content"
+            "footer footer";
         }
         #header{
             background-color: aliceblue;
-            height: 100px;
+            grid-area: header;
         }
         #menu {
             background-color: bisque;
-            height: 100px;
+            grid-area: menu;
         }
         #content {
             background-color: burlywood;
-            height: 100px;
+            grid-area: content;
         }
         #footer {
             background-color: cornsilk;
-            height: 100px;
+            grid-area: footer;
         }
        
     </style>
