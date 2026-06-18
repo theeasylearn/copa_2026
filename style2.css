@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+a:visited {
+    color: red;
+    background-color: yellow;
+}
+
+a:hover {
+    color: brown;
+    background-color: chocolate;
+    font-size: 60px;
+}
