@@ -7,13 +7,33 @@ body {
     background-color: aliceblue;
 }
 
+h1 {
+    background-color: blue;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+a:link {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 a:visited {
-    color: red;
-    background-color: yellow;
+    background-color: blue;
+    color: white;
 }
 
 a:hover {
-    color: brown;
-    background-color: chocolate;
-    font-size: 60px;
+    background-color: red;
+}
+
+a:active {
+    background-color: yellow;
 }

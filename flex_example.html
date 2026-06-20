@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Example</title>
+    <style>
+        body {
+            /* background-color: beige; */
+            padding: 0px;
+            margin: 0px;
+           
+        }
+
+        #top {
+            width: 100vw;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        #first {
+            flex: 1;
+            background-color: bisque;
+        }
+
+        #second {
+            flex: 1;
+            background-color: azure;
+        }
+
+        #third {
+            background-color: yellow;
+            height: 200px;
+        }
+
+        #bottom {
+            width: 100vw;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        #fourth {
+            background-color: blanchedalmond;
+            flex: 1;
+        }
+
+        #fifth {
+            background-color: blue;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <div id="first">First</div>
+        <div id="second">second</div>
+    </div>
+    <div id="third">Third</div>
+    <div id="bottom">
+        <div id="fourth">Fourth</div>
+        <div id="fifth">Fifth</div>
+    </div>
+</body>
+
+</html>
