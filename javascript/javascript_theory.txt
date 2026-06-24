@@ -1,0 +1,13 @@
+Variable name rules
+
+- case sensitive
+- letters, digits, _, $
+- name start with letters, _, $
+- do not use reserved keywords
+
+
+var, let, const
+
+var -> it can be redeclared and updated
+let -> it can not be redeclared but it can be updated
+const -> it can not be redeclared and can not be updated

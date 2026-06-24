@@ -1,0 +1,16 @@
+session 1
+- Show alert with "Hello World!" message
+- Print "Hello World!" message on console 
+- Below all variabls create using var than let and than const
+    - create variable age and assigned value 25 and print variable on console
+    - create variable price and assigned value 99.99 and print variable on console
+    - create variable fullName and assigned your name and print variable on console
+    - create variable x and assigned value null and print variable on console
+    - create variable y and assigned value undefined and print variable on console
+    - create variable isFollow and assigned value false and print variable on console
+- Practice below scenarios
+    - Create two same name variable with var 
+    - Create two same name variable with let
+    - create two same name variable with const
+    - Create one variable with const name price and assign 25 to it than next update that variable with 50 and print
+    - Practice variable name rules
