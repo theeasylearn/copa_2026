@@ -11,3 +11,13 @@ var, let, const
 var -> it can be redeclared and updated
 let -> it can not be redeclared but it can be updated
 const -> it can not be redeclared and can not be updated
+
+Session 2
+------------
+Operators
+    Arithmetic operator + - * / % ++ -- 
+    comparision operator == > < >= <= !=
+if else
+ternory operator
+while loop
+for loop

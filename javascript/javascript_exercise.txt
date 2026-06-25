@@ -14,3 +14,11 @@ session 1
     - create two same name variable with const
     - Create one variable with const name price and assign 25 to it than next update that variable with 50 and print
     - Practice variable name rules
+
+session 2
+----------
+- Find number is odd or even
+- Find largest of 2 numbers
+- Find largest of 3 numbers
+- Check number is divisible by 5 or not
+- Check leap year

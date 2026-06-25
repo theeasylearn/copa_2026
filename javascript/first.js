@@ -1,5 +1,13 @@
-const pi = 3.14;
+// Find number is positive, negative, zero
 
-pi = 10.5;
+let a = 0;
 
-console.log(pi);
+if (a > 0) {
+    document.write('Number is positive');
+} else if(a < 0) {
+    document.write('Number is negative');
+} else {
+    document.write('Number is zero');
+}
+
+
