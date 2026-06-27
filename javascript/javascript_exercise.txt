@@ -22,3 +22,12 @@ session 2
 - Find largest of 3 numbers
 - Check number is divisible by 5 or not
 - Check leap year
+
+session 3
+-----------
+- Display weekday using number (1-7) using switch case
+- Display month name using number (1-12)
+- Simple calculator using switch (+ - * /)
+- Even or odd number using switch
+- Student pass/fail message using marks
+- Sum of first N numbers
