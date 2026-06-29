@@ -29,5 +29,19 @@ session 3
 - Display month name using number (1-12)
 - Simple calculator using switch (+ - * /)
 - Even or odd number using switch
-- Student pass/fail message using marks
+- Student pass/fail message using marks (if user add more than 100 marks or less than 0)
 - Sum of first N numbers
+
+session 4
+-------------
+- Grade display(A, B, C, D)
+- Area calculation (Circle, Square, Rectangle)
+- Unit converter (KM -> Meter, Meter -> CM)
+- marks grade category using switch(true)
+- Positive / Negative / Zero number
+- simple interest calculator
+- Temperature converter (Celsius -> Fahrenheit)
+- swap two numbers
+- find square of a number
+- find cube of a number
+

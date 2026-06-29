@@ -1,0 +1,53 @@
+- Double quote or single quote are same
+
+alert(message);
+Ex -> alert('Hello');
+
+console.log(message);
+Ex -> console.log('Hello');
+
+if(condition) {
+    statements...
+} else {
+    statements...
+}
+
+while(expression/condition){
+    statements;
+    increment/decrement
+}
+
+for (initialization; condition; inc/dec) {
+    statements
+}
+
+do {
+    statements;
+    increment/decrement
+} while (condition);
+
+switch(expression) {
+    case a:
+        statements
+        break;
+    case b:
+        statements
+        break;
+    default:
+        statements
+}
+
+document.write(message);
+Ex -> document.write('Hello);
+
+let variable_name = value;
+var variable_name = value;
+const variable_name = value;
+
+function name(param1, param2, ...) {
+    statements
+}
+
+let array_name = [value1, value2, ...];
+var array_name = [value1, value2, ...];
+const array_name = [value1, value2, ...];
