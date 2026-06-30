@@ -1,7 +1,7 @@
 session 1
 - Show alert with "Hello World!" message
 - Print "Hello World!" message on console 
-- Below all variabls create using var than let and than const
+- Below all variables create using var than let and than const
     - create variable age and assigned value 25 and print variable on console
     - create variable price and assigned value 99.99 and print variable on console
     - create variable fullName and assigned your name and print variable on console
@@ -44,4 +44,14 @@ session 4
 - swap two numbers
 - find square of a number
 - find cube of a number
+
+session 5
+-----------
+- factorial of number
+- maximum of array numbers
+- minimum of array numbers
+- find average of 5 numbers
+- voting eligibility (age check)
+- Days to hours converter
+- currency converter (Rupee -> dollar)
 
