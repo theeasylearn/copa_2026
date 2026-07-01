@@ -55,3 +55,11 @@ session 5
 - Days to hours converter
 - currency converter (Rupee -> dollar)
 
+session 6
+-----------
+- character type (alphabet/digit/special)
+- lucky number game using switch
+- reverse a number  Ex - 123 -> 321
+- palindrome number check Ex - 121
+- count digits in number
+
